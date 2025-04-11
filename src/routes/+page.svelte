@@ -6,7 +6,7 @@
   <div class="workshop">
     <h1>This is a Sample Workshop!</h1>
     <p>Register here!</p>
-    <a href="">Workshop</a>
+    <a href="/workshop">Workshop</a>
   </div>
 </div>
 
