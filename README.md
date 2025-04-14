@@ -17,6 +17,24 @@ npm install
 npm run dev
 ```
 
+## Docker Setup
+
+If you'd prefer to run the application using Docker, follow the steps below:
+
+1. Build the Docker image:
+
+```bash
+docker build -t workshop-stress-test .
+```
+
+2. Run the Docker container:
+
+```bash
+docker run -p 3000:3000 workshop-stress-test
+```
+
+This will start the application and expose it on port 3000.
+
 ## Contributing
 
 If you have suggestions or improvements, feel free to fork this repository, open issues, or submit pull requests.
